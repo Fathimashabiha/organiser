@@ -1,0 +1,60 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mooli&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Mooli', sans-serif;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+li,ul,h1{
+    display: inline;
+
+}
+ul{
+    margin-left: 800px;
+}
+li{
+    color: gray;
+    cursor: pointer;
+    padding:5px;
+    
+}
+
+li:hover{
+    color: white;
+}
+.one{
+    background: url(Events.webp) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+.head{
+    color: whitesmoke;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+
+}
+.head h1{
+    font-size: 2.5em;
+
+}
+p{
+    padding: 2em;
+}
+
+.submit{
+    margin: 1em;
+    border: none;
+    border-radius: 1em;
+    background-color:rgb(161, 124, 54);
+    padding: 1em;
+
+}
